@@ -1,16 +1,17 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --tracking-tightest:-0.065em;
 }
+
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -20,6 +21,12 @@
 }
 
 body {
+  font-family: Yekan;
   background-color: #171717;
   color: white;
+}
+
+@font-face {
+  font-family: Yekan;
+  src: url("./font/yekan-regular.woff") format("woff");
 }
