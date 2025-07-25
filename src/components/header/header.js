@@ -8,7 +8,7 @@ import { TfiLayoutLineSolid } from "react-icons/tfi";
 
 export default function header() {
   return (
-    <div className=' backdrop-blur-lg bg-zinc-500/20 px-10 py-2.5 top-4 fixed flex left-0 right-0 w-[90%] mx-auto justify-between rounded-3xl'>
+    <div className=' backdrop-blur-[6px] bg-stone-900/80 px-10 py-2.5 top-4 fixed flex left-0 right-0 w-[90%] mx-auto justify-between rounded-3xl'>
 
       <div className='flex items-center gap-1.5  text-orange-200'>
         <div className='flex gap-1.5 mr-2'>
