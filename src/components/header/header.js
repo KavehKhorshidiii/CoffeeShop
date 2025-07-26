@@ -37,6 +37,7 @@ export default function header() {
           </div>
         </div>
         
+        
         <div className='relative group'>
           <a className=' py-5 group-hover:text-orange-300' href="">فروشگاه</a>
           <div className=' transition-all child:transition-colors tracking-normal shadow-2xl child:hover:text-orange-300 text-base space-y-4 w-52 absolute right-0 top-8 flex flex-col items-end bg-white dark:bg-zinc-700 dark:text-white rounded-2xl border-t-[3px] border-orange-300 text-zinc-700 p-6 invisible opacity-0  group-hover:visible group-hover:opacity-100'>
