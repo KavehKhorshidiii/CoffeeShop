@@ -8,9 +8,8 @@
 }
 
 @theme inline {
-  --tracking-tightest:-0.065em;
+  
 }
-
 
 
 @media (prefers-color-scheme: dark) {
@@ -30,3 +29,14 @@ body {
   font-family: Yekan;
   src: url("./font/yekan-regular.woff") format("woff");
 }
+
+
+/*? Custom Variant */
+
+@custom-variant child {
+  & > * {
+    @slot
+  }
+}
+
+/*? ---------------- */

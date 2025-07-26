@@ -23,13 +23,33 @@ export default function header() {
           <div className='flex items-center'><FaBasketShopping className=' w-7 h-7'/></div>
         </div>
       </div>
-      <div className='flex gap-3.5  items-center'>
+      <div className=' flex gap-3.5  items-center'>
+
         <a href="">تماس با ما</a>
         <a href="">درباره ما</a>
         <a href="">بلاگ</a>
-        <a href="">دیکشنری</a>
-        <a href="">فروشگاه</a>
-        <a className='font-black text-orange-200' href="">صفحه اصلی</a>
+
+        <div className='relative group'>
+          <a className=' py-5 group-hover:text-orange-300' href="">دیکشنری</a>
+          <div className=' transition-all child:transition-colors tracking-normal shadow-2xl child:hover:text-orange-300 text-base space-y-4 w-52 absolute right-0 top-8 flex flex-col items-end bg-white dark:bg-zinc-700 dark:text-white rounded-2xl border-t-[3px] border-orange-300 text-zinc-700 p-6 invisible opacity-0  group-hover:visible group-hover:opacity-100'>
+            <a href="">قهوه ویژه</a>
+            <a href="">ویژه در سطح جهان</a>
+          </div>
+        </div>
+        
+        <div className='relative group'>
+          <a className=' py-5 group-hover:text-orange-300' href="">فروشگاه</a>
+          <div className=' transition-all child:transition-colors tracking-normal shadow-2xl child:hover:text-orange-300 text-base space-y-4 w-52 absolute right-0 top-8 flex flex-col items-end bg-white dark:bg-zinc-700 dark:text-white rounded-2xl border-t-[3px] border-orange-300 text-zinc-700 p-6 invisible opacity-0  group-hover:visible group-hover:opacity-100'>
+            <a href="">قهوه ویژه</a>
+            <a href="">ویژه در سطح جهان</a>
+            <a href="">قهوه درجه یک</a>
+            <a href="">ترکیبات تجاری</a>
+            <a href="">کپسول قهوه</a>
+            <a href="">قهوه زینو برزیلی</a>
+          </div>
+        </div>
+
+          <a className='font-black text-orange-200' href="">صفحه اصلی</a>
 
         <a href="">
             <img src="logo/logo.png" alt="" />
