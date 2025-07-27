@@ -22,7 +22,7 @@ export default function shopCartHeader() {
 
 
 
-      <div className=" flex justify-between h-32 shadow-2xl rounded-2xl ">
+      <div className=" flex justify-between h-32 shadow-light  dark:shadow-dark rounded-2xl ">
 
 
 
@@ -53,90 +53,6 @@ export default function shopCartHeader() {
 
 
 
-
-      <div className=" flex justify-between h-32 shadow-2xl rounded-2xl ">
-
-
-
-        <div className=" flex w-2/3 flex-col  h-full justify-between">
-
-            <div className="flex justify-end text-right h-1/2 overflow-hidden">
-                قهوه اسپرسو مدل  پریکسا 
-                
-            </div>
-            
-            <div className="flex h-1/2 flex-col">
-                <div className="flex justify-end gap-1.5"><span>تخفیف</span><span>۱۴،۵۰۰ </span></div>
-                <div className="flex justify-end gap-1.5"><span>تومان</span><span>۳۵۰</span></div>
-            </div>
-
-        </div>
-
-
-
-        <div className="flex w-1/3 items-center justify-center">
-            <img className="" src="products/p1.png" alt="" />
-        </div>
-
-
-
-      </div>
-
-      <div className=" flex justify-between h-32 shadow-2xl rounded-2xl ">
-
-
-
-        <div className=" flex w-2/3 flex-col  h-full justify-between">
-
-            <div className="flex justify-end text-right h-1/2 overflow-hidden">
-                قهوه اسپرسو مدل  پریکسا 
-                
-            </div>
-            
-            <div className="flex h-1/2 flex-col">
-                <div className="flex justify-end gap-1.5"><span>تخفیف</span><span>۱۴،۵۰۰ </span></div>
-                <div className="flex justify-end gap-1.5"><span>تومان</span><span>۳۵۰</span></div>
-            </div>
-
-        </div>
-
-
-
-        <div className="flex w-1/3 items-center justify-center">
-            <img className="" src="products/p1.png" alt="" />
-        </div>
-
-
-
-      </div>
-
-      <div className=" flex justify-between h-32 shadow-2xl rounded-2xl ">
-
-
-
-        <div className=" flex w-2/3 flex-col  h-full justify-between">
-
-            <div className="flex justify-end text-right h-1/2 overflow-hidden">
-                قهوه اسپرسو مدل  پریکسا 
-                
-            </div>
-            
-            <div className="flex h-1/2 flex-col">
-                <div className="flex justify-end gap-1.5"><span>تخفیف</span><span>۱۴،۵۰۰ </span></div>
-                <div className="flex justify-end gap-1.5"><span>تومان</span><span>۳۵۰</span></div>
-            </div>
-
-        </div>
-
-
-
-        <div className="flex w-1/3 items-center justify-center">
-            <img className="" src="products/p1.png" alt="" />
-        </div>
-
-
-
-      </div>
 
 
 
