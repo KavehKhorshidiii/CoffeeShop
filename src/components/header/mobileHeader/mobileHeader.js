@@ -5,6 +5,16 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { FaBasketShopping } from "react-icons/fa6";
 import { ImCross } from "react-icons/im";
 import { IoMdLogIn } from "react-icons/io";
+import { FaHome } from "react-icons/fa";
+import { FaShoppingBasket } from "react-icons/fa";
+import { SiDictionarydotcom } from "react-icons/si";
+import { PiBagFill } from "react-icons/pi";
+import { FaNewspaper } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
+
+
+
+
 
 export default function MobileHeader() {
 
@@ -33,7 +43,7 @@ export default function MobileHeader() {
 
 
          {/* navBar section */}
-         <div className={` ${toggle ? 'right-0 translate-x-0' : ' right-0 translate-x-full '} px-5 z-20 bg-white text-lg dark:bg-zinc-700 dark:text-amber-50  text-black fixed  bottom-0 w-2/3 top-0`}>
+         <div className={` ${toggle ? 'right-0 translate-x-0' : ' right-0 translate-x-full '} px-5 z-20 bg-white text-lg dark:bg-zinc-700 transition-all duration-500 dark:text-amber-50  text-black fixed  bottom-0 w-1/2 top-0`}>
             
             {/* header sideBar */}
             <div className=" dark:border-white/50 border-black/50 border-b-1 py-4 items-center flex justify-between">
@@ -58,13 +68,13 @@ export default function MobileHeader() {
             
 
             {/* body sideBar */}
-            <div className=" child:active:text-orange-300 child:hover:text-orange-300 py-6 space-y-5 flex items-end dark:border-white/50 border-black/50 border-b-1 flex-col">
-               <a href="">صفحه اصلی</a>
-               <a href="">فروشگاه</a>
-               <a href="">دیکشنری</a>
-               <a href="">درباره ما</a>
-               <a href="">بلاگ</a>
-               <a href="">تماس با ما</a>
+            <div className=" child:active:text-orange-300 child:hover:text-orange-300 py-6 space-y-5 flex items-end child:flex child:items-center child:gap-2 dark:border-white/50 border-black/50 border-b-1 flex-col">
+               <a href="">صفحه اصلی<FaHome></FaHome></a>
+               <a href="">فروشگاه<FaShoppingBasket></FaShoppingBasket></a>
+               <a href="">دیکشنری<SiDictionarydotcom></SiDictionarydotcom></a>
+               <a href="">درباره ما<PiBagFill></PiBagFill></a>
+               <a href="">بلاگ<FaNewspaper></FaNewspaper></a>
+               <a href="">تماس با ما<FaPhone></FaPhone></a>
             </div>
            
 
