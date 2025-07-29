@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export default function Home() {
    return (
-      <div className=" w-full bg-gray-100 dark:bg-zinc-800">
+      <div className="w-full bg-gray-100 dark:bg-zinc-800">
          <Header></Header>
          <MobileHeader></MobileHeader>
          <Image src="/bg-img/bgi.webp" alt="coffeeImg" priority className="" width={1920} height={905} />
