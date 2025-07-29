@@ -1,9 +1,11 @@
+const ShopCartHeader = dynamic(() => import('@/components/header/shopCartHeader/shopCartHeader'));
 import React from "react"
+import dynamic from "next/dynamic";
 import { FaBasketShopping } from "react-icons/fa6"
 import { TfiLayoutLineSolid } from "react-icons/tfi"
-import ShopCartHeader from "../shopCartHeader/shopCartHeader"
 import Link from "next/link"
 import Image from "next/image"
+
 
 const storeItems = [
   "قهوه ویژه",

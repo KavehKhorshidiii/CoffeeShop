@@ -11,19 +11,19 @@ import { FaPhone } from "react-icons/fa"
 import Image from "next/image"
 import Link from "next/link"
 
-export default function MobileHeaderSidebarMenu({ isSidebarOpen, setIsSidebarOpen }) {
+export default function MobileHeaderSidebarMenu({ toggle, setToggle }) {
    //? mobile header sidebar Menu
 
    return (
       <div
          className={`${
-            isSidebarOpen ? "right-0 translate-x-0" : " right-0 translate-x-full "
-         }  px-5 z-20 bg-white text-lg dark:bg-zinc-700 transition-all duration-500 dark:text-amber-50  text-black fixed  bottom-0 w-1/2 top-0`}
+            toggle ? "right-0 translate-x-0 " : " right-0 translate-x-full "
+         }transition-all duration-1000 px-5 z-20 bg-white text-lg dark:bg-zinc-700 dark:text-amber-50  text-black fixed  bottom-0 w-1/2 top-0`}
       >
          {/* header sideBar */}
          <div className=" dark:border-white/50 border-black/50 border-b-1 py-4 items-center flex justify-between">
             <div>
-               <button onClick={() => setIsSidebarOpen(false)}>
+               <button onClick={() => setToggle(false)}>
                   <ImCross className=" dark:text-white"></ImCross>
                </button>
             </div>
