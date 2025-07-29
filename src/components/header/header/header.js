@@ -2,23 +2,32 @@ import React from "react"
 import { FaBasketShopping } from "react-icons/fa6"
 import { TfiLayoutLineSolid } from "react-icons/tfi"
 import ShopCartHeader from "../shopCartHeader/shopCartHeader"
+import Link from "next/link"
+import Image from "next/image"
+
+const storeItems = [
+  "قهوه ویژه",
+  "ویژه در سطح جهان",
+  "قهوه درجه یک",
+  "ترکیبات تجاری",
+  "کپسول قهوه",
+  "قهوه زینو برزیلی"
+]
 
 
-export default function header() {
+export default function Header() {
    return (
-      
       //? Header component
 
       <div className=" max-md:hidden max-lg:px-5 backdrop-blur-[6px] bg-stone-900/80 px-10 py-2.5 top-4 fixed flex left-0 right-0 w-[90%] mx-auto justify-between rounded-3xl">
 
          {/* left container | basket and login */}
          <div className="flex items-center max-md:gap-0 gap-1.5  text-orange-200">
-
             {/* login */}
             <div className="flex gap-1.5 mr-2">
-               <a href="">ثبت نام</a>
+               <Link href="#">ثبت نام</Link>
                <span>|</span>
-               <a href="">ورود</a>
+               <Link href="#">ورود</Link>
             </div>
 
             {/* line icon */}
@@ -38,48 +47,47 @@ export default function header() {
             </div>
          </div>
 
-         {/* right container */}
+         {/* right container | Menu */}
          <div className=" flex max-lg:gap-3 gap-3.5 child:hover:text-orange-300  items-center">
+
             {/* header Menu */}
-
-            <a href="">تماس با ما</a>
-            <a href="">درباره ما</a>
-            <a href="">بلاگ</a>
+            <Link href="#">تماس با ما</Link>
+            <Link href="#">درباره ما</Link>
+            <Link href="#">بلاگ</Link>
 
             <div className="relative group">
-               <a className=" py-5 group-hover:text-orange-300" href="">
+               <Link className=" py-5 group-hover:text-orange-300" href="#">
                   دیکشنری
-               </a>
+               </Link>
                <div className=" transition-all child:transition-colors tracking-normal shadow-2xl child:hover:text-orange-300 text-base space-y-4 w-52 absolute right-0 top-8 flex flex-col items-end bg-white dark:bg-zinc-700 dark:text-white rounded-2xl border-t-[3px] border-orange-300 text-zinc-700 p-6 invisible opacity-0  group-hover:visible group-hover:opacity-100">
-                  <a href="">قهوه ویژه</a>
-                  <a href="">ویژه در سطح جهان</a>
+                  <Link href="#">قهوه ویژه</Link>
+                  <Link href="#">ویژه در سطح جهان</Link>
                </div>
             </div>
 
             <div className="relative group">
-               <a className=" py-5 group-hover:text-orange-300" href="">
+               <Link className=" py-5 group-hover:text-orange-300" href="#">
                   فروشگاه
-               </a>
+               </Link>
                <div className=" transition-all child:transition-colors tracking-normal font-medium shadow-2xl child:hover:text-orange-300 text-base space-y-4 w-52 absolute right-0 top-8 flex flex-col items-end bg-white dark:bg-zinc-700 dark:text-white rounded-2xl border-t-[3px] border-orange-300 text-zinc-700 p-6 invisible opacity-0  group-hover:visible group-hover:opacity-100">
-                  <a href="">قهوه ویژه</a>
-                  <a href="">ویژه در سطح جهان</a>
-                  <a href="">قهوه درجه یک</a>
-                  <a href="">ترکیبات تجاری</a>
-                  <a href="">کپسول قهوه</a>
-                  <a href="">قهوه زینو برزیلی</a>
+                  {
+                     storeItems.map((item , index) =>  <Link key={index} href="#">{item}</Link>  )
+                  }
                </div>
             </div>
 
-            <a className="font-black text-orange-200" href="">
+            <Link className="font-black text-orange-200" href="/">
                صفحه اصلی
-            </a>
+            </Link>
 
             {/* logo */}
-
-            <a href="">
-               <img className=" max-md:size-8" src="logo/logo.png" alt="" />
-            </a>
+            <Link href="/">
+               <div className="relative w-10 h-10">
+                  <Image src="/logo/logo.png" alt="لوگو" fill sizes="40px" className="object-contain" />
+               </div>
+            </Link>
          </div>
+
       </div>
    )
 }
