@@ -1,27 +1,21 @@
 "use client"
-import  { useEffect, useState } from 'react'
-
+import { useEffect, useState } from "react"
 
 export default function DarkMode() {
 
-  const [darkMode , setDarkMode] = useState(false)
-  
+   //? dark mode
 
-  useEffect(()=>{
-    
-    if (darkMode) {
-      document.documentElement.classList.add("dark")
-    } else {
-      document.documentElement.classList.remove("dark") 
-    }
+   const [darkMode, setDarkMode] = useState(false)
 
-  },[darkMode])
+   useEffect(() => {
+      if (darkMode) {
+         document.documentElement.classList.add("dark")
+      } else {
+         document.documentElement.classList.remove("dark")
+      }
+   }, [darkMode])
 
-
-  useEffect(()=>{
-
-    setDarkMode(window.matchMedia('(prefers-color-scheme: dark)').matches)
-    
-  },[])
-
+   useEffect(() => {
+      setDarkMode(window.matchMedia("(prefers-color-scheme: dark)").matches)
+   }, [])
 }

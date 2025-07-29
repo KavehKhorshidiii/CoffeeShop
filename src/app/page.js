@@ -1,5 +1,5 @@
-import Header from "@/components/header/header";
-import MobileHeader from "@/components/header/mobileHeader/mobileHeader";
+import Header from "@/components/header/header/header";
+import MobileHeader from "@/components/header/mobileHeader/Header mobile/mobileHeader";
 
 export default function Home() {
     return (
