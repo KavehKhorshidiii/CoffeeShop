@@ -21,7 +21,7 @@ export default function Header() {
    return (
       //? Header component
 
-      <div className=" max-md:hidden max-lg:px-5 backdrop-blur-[6px] bg-stone-900/80 px-10 py-2.5 top-4 fixed flex left-0 right-0 w-[90%] mx-auto justify-between rounded-3xl">
+      <div className=" z-10 max-md:hidden max-lg:px-5 backdrop-blur-[6px] bg-stone-900/80 px-10 py-2.5 top-4 fixed flex left-0 right-0 w-[90%] mx-auto justify-between rounded-3xl">
 
          {/* left container | basket and login */}
          <div className="flex items-center max-md:gap-0 gap-1.5  text-orange-200">

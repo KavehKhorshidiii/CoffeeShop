@@ -10,8 +10,7 @@
 @theme inline {
   --shadow-dark: 0px 0px 21px -10px black;
   --shadow-light: 0px 0px 21px 10px rgba(0,0,0,0.1);
-}
-
+} 
 
 
 @media (prefers-color-scheme: dark) {
@@ -41,4 +40,7 @@ body {
   }
 }
 
-/*? ---------------- */
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
