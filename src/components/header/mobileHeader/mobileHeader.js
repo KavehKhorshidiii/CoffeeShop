@@ -9,7 +9,7 @@ export default function MobileHeader() {
    return (
       //? mobile header
 
-      <div className="flex md:hidden w-full justify-between p-4 items-center bg-white dark:bg-zinc-700">
+      <div className="flex w-full justify-between p-4 items-center bg-white dark:bg-zinc-700">
 
          {/* shopping cart */}
          <BasketShoppingCartBtn/>
