@@ -4,6 +4,7 @@ import { LuShoppingCart } from "react-icons/lu"
 import { FaArrowRightArrowLeft } from "react-icons/fa6"
 import { ImStarEmpty } from "react-icons/im"
 import { IoIosArrowBack } from "react-icons/io"
+import Link from "next/link"
 
 
 // products object
@@ -24,9 +25,11 @@ export default function product() {
       <>
         {/* text */}
          <div className=" items-end  mt-30 flex justify-between">
-            <div className=" flex items-center text-orange-300">
-               <IoIosArrowBack></IoIosArrowBack>مشاهده همه محصولات
-            </div>
+            <Link href="#">
+                <div className=" flex items-center text-orange-300">
+                    <IoIosArrowBack></IoIosArrowBack>مشاهده همه محصولات
+                </div>
+            </Link>
             <div className=" flex text-right gap-y-2 flex-col">
                <span className=" text-4xl font-bold">جدید ترین محصولات</span>
                <span className=" text-lg">فراوری شده از دانه قهوه</span>
@@ -34,9 +37,10 @@ export default function product() {
          </div>
 
         {/* products */}
+        <Link href="#">
          <div className=" mt-10 grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 justify-between w-full">
             {productObject.map((product) => (
-               <div key={product.id} className="shadow-light p-2 text-right rounded-2xl">
+                <div key={product.id} className="shadow-light p-2 text-right rounded-2xl">
                   <div className="flex justify-center">
                      <Image src={product.img} alt="product pho" width={160} height={160} className="w-40 h-40 object-contain" />
                   </div>
@@ -50,7 +54,7 @@ export default function product() {
                      <div className="flex justify-between">
                         <div className="flex">
                            {
-                              <>
+                               <>
                                  <ImStarEmpty className=" text-orange-400"></ImStarEmpty>
                                  <ImStarEmpty className=" text-orange-400"></ImStarEmpty>
                                  <ImStarEmpty className=" text-orange-400"></ImStarEmpty>
@@ -72,6 +76,7 @@ export default function product() {
                </div>
             ))}
          </div>
+        </Link>
       </>
    )
 }

@@ -1,10 +1,8 @@
 import Header from "@/components/header/header/header"
-import Image from "next/image"
 import MobileHeaderWrapper from "@/components/header/mobileHeader/MobileHeaderWrapper"
 import Title from "@/components/Home/Title/Title"
 import Product from "@/components/Home/products/product"
-
-{/* <Image src="/bg-img/bgi.webp" alt="coffeeImg" priority width={1920} height={905} /> */}
+import CoffeeSection from "@/components/Home/coffee Section/coffeeSection"
 
 
 export default function Home() {
@@ -29,8 +27,11 @@ export default function Home() {
             <section className="flex justify-center">
                <div className=" container">
 
+                  {/* products */}
                   <Product></Product>
 
+                  {/* coffee section */}
+                  <CoffeeSection></CoffeeSection>
                </div>
             </section>
 
