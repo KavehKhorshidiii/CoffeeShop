@@ -3,6 +3,7 @@ import MobileHeaderWrapper from "@/components/header/mobileHeader/MobileHeaderWr
 import Title from "@/components/Home/Title/Title"
 import Product from "@/components/Home/products/product"
 import CoffeeSection from "@/components/Home/coffee Section/coffeeSection"
+import Slider from "@/components/Home/slider/slider"
 
 
 export default function Home() {
@@ -32,6 +33,9 @@ export default function Home() {
 
                   {/* coffee section */}
                   <CoffeeSection></CoffeeSection>
+
+                  {/* slider */}
+                  <Slider></Slider>
                </div>
             </section>
 
