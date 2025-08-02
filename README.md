@@ -35,7 +35,7 @@ I'm still learning, and this project is part of my journey.
 <br/>
 
 
-### Installation & Usage
+### Installation & Usage📦
 
 ##### Requirements 
 - Node.js 
@@ -60,11 +60,12 @@ npm run dev
 <br/>
 
 
-### Tech Stack 
+### Tech Stack⚙️
 
 React.js
 Next.js
 Tailwind CSS
+
 
 
 
