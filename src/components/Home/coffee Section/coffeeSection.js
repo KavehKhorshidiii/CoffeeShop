@@ -6,9 +6,7 @@ export default function CoffeeSection() {
    return (
       <div className="flex flex-col lg:flex-row justify-between my-25 gap-5 w-full">
 
-
          {/* left section */}
-
          <div className="relative w-full">
             <Link href="#">
                <Image className=" object-cover w-full h-full rounded-2xl" src="/coffeeSection/left.jpg" width={500} height={500} alt="coffeeImg" priority />
@@ -22,10 +20,7 @@ export default function CoffeeSection() {
             </div>
          </div>
 
-
-
          {/* right section */}
-
          <div className="relative w-full">
             <Link href="#">
                <Image className=" object-cover w-full h-full rounded-2xl" src="/coffeeSection/right.jpg" width={500} height={500} alt="coffeeImg" priority />
@@ -38,9 +33,7 @@ export default function CoffeeSection() {
                <div className=" text-xl">ترکیبی و تک</div>
             </div>
          </div>
-
-
-         
+    
       </div>
    )
 }

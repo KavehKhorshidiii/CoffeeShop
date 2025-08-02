@@ -12,6 +12,7 @@ import "swiper/css/navigation"
 
 import Image from "next/image"
 
+// ? product list
 const productObject = [
    { id: 1, title: "قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی", img: "/products/p5.png"},
    { id: 2, title: "قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی", img: "/products/p6.png"},

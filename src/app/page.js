@@ -8,6 +8,7 @@ import TrendingProduct from "@/components/Home/Trending Product/TrendingProduct"
 import Club from "@/components/Home/Club/Club"
 import AboutMe from "@/components/Home/aboutMe/aboutMe"
 
+
 export default function Home() {
    return (
       <div className="w-full bg-gray-100 dark:bg-zinc-800">
@@ -17,7 +18,6 @@ export default function Home() {
             <Header></Header>
          </section>
 
-
          {/* header mobile */}
          <section>
             <div className="md:hidden">
@@ -25,10 +25,8 @@ export default function Home() {
             </div>
          </section>
 
-
          {/* main - body */}
          <main>
-
             {/* title - bg-img */}
             <section>
                <Title></Title>
@@ -36,7 +34,6 @@ export default function Home() {
 
             <section className="flex justify-center">
                <div className=" container">
-
                   {/* products */}
                   <section>
                      <Product></Product>
@@ -64,15 +61,11 @@ export default function Home() {
 
                   {/* about me */}
                   <section>
-                              <AboutMe></AboutMe>
+                     <AboutMe></AboutMe>
                   </section>
-
                </div>
             </section>
          </main>
-
-
-
       </div>
    )
 }
