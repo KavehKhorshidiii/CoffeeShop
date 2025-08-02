@@ -1,12 +1,16 @@
 ## Caffee shop ☕️
 
+
+<br/>
 <br/>
 
 
-[Live Website 🌐](https://coffee-shop-two-psi.vercel.app/) 
+
+ Click to open the [Live Website 🌐](https://coffee-shop-two-psi.vercel.app/)
 
 
 
+<br/>
 <br/>
 
 
@@ -17,6 +21,7 @@ The coffee shop project is my first project
 
 
 <br/>
+<br/>
 
 
 ### Project Description📘
@@ -25,6 +30,7 @@ This is my **first personal project**, built with **Next.js**, even though I hav
 I'm still learning, and this project is part of my journey. 
 
 
+<br/>
 <br/>
 
 
@@ -38,6 +44,7 @@ I'm still learning, and this project is part of my journey.
 - Dark mode (Considering the user's browser theme)
 
 
+<br/>
 <br/>
 
 
@@ -64,6 +71,7 @@ npm run dev
 
 
 <br/>
+<br/>
 
 
 ### Tech Stack⚙️
@@ -74,16 +82,12 @@ npm run dev
 
 
 <br/>
-
-
-
-
-
 <br/>
 
 
 
 Developed by [Kaveh Khorshidi](https://github.com/Kaveh-Khorshidi) 💻
+
 
 
 
