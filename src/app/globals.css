@@ -21,14 +21,9 @@
 }
 
 body {
-  font-family: Yekan;
+  font-family: yekan;
   background-color: #171717;
   color: white;
-}
-
-@font-face {
-  font-family: Yekan;
-  src: url("./font/yekan-regular.woff") format("woff");
 }
 
 
