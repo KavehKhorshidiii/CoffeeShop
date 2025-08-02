@@ -1,28 +1,28 @@
-## Caffee shop
+## Caffee shop ☕️
 
 
+<br/>
 
 
-
-### Description
+### Description📄
 
 The coffee shop project is my first project
 "This project was developed with NextJs, but I still haven't learned NextJs!"
 
 
+<br/>
 
 
-
-### Project Description
+### Project Description📘
 
 This is my **first personal project**, built with **Next.js**, even though I haven't formally learned the framework yet. The goal was to explore web development hands-on and practice building a simple coffee shop management app.  
 I'm still learning, and this project is part of my journey. 
 
 
+<br/>
 
 
-
-### Features
+### Features✨
 
 - Simple order-taking system
 - Responsive design
@@ -32,7 +32,7 @@ I'm still learning, and this project is part of my journey.
 - Dark mode (Considering the user's browser theme)
 
 
-
+<br/>
 
 
 ### Installation & Usage
@@ -57,7 +57,7 @@ npm install
 npm run dev
 
 
-
+<br/>
 
 
 ### Tech Stack 
@@ -65,6 +65,7 @@ npm run dev
 React.js
 Next.js
 Tailwind CSS
+
 
 
 
