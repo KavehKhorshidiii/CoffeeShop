@@ -4,6 +4,7 @@ import Title from "@/components/Home/Title/Title"
 import Product from "@/components/Home/products/product"
 import CoffeeSection from "@/components/Home/coffee Section/coffeeSection"
 import Slider from "@/components/Home/slider/slider"
+import TrendingProduct from "@/components/Home/Trending Product/TrendingProduct"
 
 
 export default function Home() {
@@ -31,11 +32,16 @@ export default function Home() {
                   {/* products */}
                   <Product></Product>
 
+                  {/* slider */}
+                  <Slider></Slider>
+                  
                   {/* coffee section */}
                   <CoffeeSection></CoffeeSection>
 
-                  {/* slider */}
-                  <Slider></Slider>
+
+                  {/* Trending Product */}
+                  <TrendingProduct></TrendingProduct>
+
                </div>
             </section>
 
