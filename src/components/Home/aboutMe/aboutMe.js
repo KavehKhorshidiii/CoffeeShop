@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function aboutMe() {
    return (
-      <div className="pb-10">
+      <div className="pb-1">
          <Link href="https://github.com/Kaveh-Khorshidi">
             <div className="flex justify-center items-center gap-1">
                <div>
