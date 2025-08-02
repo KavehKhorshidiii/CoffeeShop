@@ -67,6 +67,20 @@ Next.js
 Tailwind CSS
 
 
+<br/>
+
+
+
+
+
+<br/>
+
+
+
+Developed by [Kaveh Khorshidi](https://github.com/Kaveh-Khorshidi) 💻
+
+
+
 
 
 
