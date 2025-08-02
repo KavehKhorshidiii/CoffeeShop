@@ -5,49 +5,64 @@ import Product from "@/components/Home/products/product"
 import CoffeeSection from "@/components/Home/coffee Section/coffeeSection"
 import Slider from "@/components/Home/slider/slider"
 import TrendingProduct from "@/components/Home/Trending Product/TrendingProduct"
-
+import Club from "@/components/Home/Club/Club"
 
 export default function Home() {
    return (
       <div className="w-full bg-gray-100 dark:bg-zinc-800">
-
          {/* Header */}
-         <Header></Header>
+         <section>
+            <Header></Header>
+         </section>
 
          {/* header mobile */}
-         <div className="md:hidden">
-            <MobileHeaderWrapper/>
-         </div>
-        
+         <section>
+            <div className="md:hidden">
+               <MobileHeaderWrapper />
+            </div>
+         </section>
 
          {/* main - body */}
          <main>
 
             {/* title - bg-img */}
-            <Title></Title>
+            <section>
+               <Title></Title>
+            </section>
 
             <section className="flex justify-center">
                <div className=" container">
 
+
                   {/* products */}
-                  <Product></Product>
+                  <section>
+                     <Product></Product>
+                  </section>
 
                   {/* slider */}
-                  <Slider></Slider>
-                  
-                  {/* coffee section */}
-                  <CoffeeSection></CoffeeSection>
+                  <section>
+                     <Slider></Slider>
+                  </section>
 
+                  {/* coffee section */}
+                  <section>
+                     <CoffeeSection></CoffeeSection>
+                  </section>
 
                   {/* Trending Product */}
-                  <TrendingProduct></TrendingProduct>
+                  <section>
+                     <TrendingProduct></TrendingProduct>
+                  </section>
+
+                  {/* club */}
+                  <section>
+                     <Club></Club>
+                  </section>
+
 
                </div>
             </section>
-
-         </main> 
-        
-
+         </main>
       </div>
    )
 }

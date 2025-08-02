@@ -13,14 +13,10 @@ import "swiper/css/navigation"
 import Image from "next/image"
 
 const productObject = [
-   { id: 1, title: "قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی", img: "/products/p1.png", score: 1 },
-   { id: 2, title: "قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی", img: "/products/p2.png", score: 2 },
-   { id: 3, title: "قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی", img: "/products/p3.png", score: 1 },
-   { id: 4, title: "قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی", img: "/products/p4.png", score: 1 },
-   { id: 5, title: "قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی", img: "/products/p5.png", score: 5 },
-   { id: 6, title: "قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی", img: "/products/p6.png", score: 1 },
-   { id: 7, title: "قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی", img: "/products/p7.png", score: 3 },
-   { id: 8, title: "قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی", img: "/products/p8.png", score: 4 },
+   { id: 1, title: "قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی", img: "/products/p5.png"},
+   { id: 2, title: "قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی", img: "/products/p6.png"},
+   { id: 3, title: "قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی", img: "/products/p7.png"},
+   { id: 4, title: "قهوه ترک بن مانو مقدار ۲۵۰ گرم خط دوم اسم طولانی", img: "/products/p8.png"},
 ]
 
 export default function TrendingProduct() {
