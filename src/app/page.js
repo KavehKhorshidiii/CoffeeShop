@@ -6,14 +6,17 @@ import CoffeeSection from "@/components/Home/coffee Section/coffeeSection"
 import Slider from "@/components/Home/slider/slider"
 import TrendingProduct from "@/components/Home/Trending Product/TrendingProduct"
 import Club from "@/components/Home/Club/Club"
+import AboutMe from "@/components/Home/aboutMe/aboutMe"
 
 export default function Home() {
    return (
       <div className="w-full bg-gray-100 dark:bg-zinc-800">
+
          {/* Header */}
          <section>
             <Header></Header>
          </section>
+
 
          {/* header mobile */}
          <section>
@@ -21,6 +24,7 @@ export default function Home() {
                <MobileHeaderWrapper />
             </div>
          </section>
+
 
          {/* main - body */}
          <main>
@@ -32,7 +36,6 @@ export default function Home() {
 
             <section className="flex justify-center">
                <div className=" container">
-
 
                   {/* products */}
                   <section>
@@ -59,10 +62,17 @@ export default function Home() {
                      <Club></Club>
                   </section>
 
+                  {/* about me */}
+                  <section>
+                              <AboutMe></AboutMe>
+                  </section>
 
                </div>
             </section>
          </main>
+
+
+
       </div>
    )
 }
