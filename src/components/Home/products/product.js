@@ -38,7 +38,7 @@ export default function product() {
 
         {/* products */}
         <Link href="#">
-         <div className=" mt-10 grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 justify-between w-full">
+         <div className=" mt-10 grid gap-12 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 justify-between w-full">
             {productObject.map((product) => (
                 <div key={product.id} className="shadow-light p-2 text-right rounded-2xl">
                   <div className="flex justify-center">

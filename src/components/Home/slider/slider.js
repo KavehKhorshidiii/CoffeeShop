@@ -1,39 +1,71 @@
 "use client"
 import React from "react"
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/css"
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import Image from "next/image"
+import Link from "next/link"
 
+import { FreeMode, Pagination } from "swiper/modules"
+import { Swiper, SwiperSlide } from "swiper/react"
+
+import { Mousewheel } from "swiper/modules"
+
+import "swiper/css"
+import "swiper/css/navigation"
+import "swiper/css/pagination"
+import "swiper/css/scrollbar"
 
 export default function slider() {
    return (
-      <div className=" border-2">
-         <Swiper
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
-            spaceBetween={50}
-            slidesPerView={3}
-            navigation
-            pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log("slide change")}
-         >
-            <SwiperSlide><div className=" border-2 p-44 w-10 h-10">box 1</div></SwiperSlide>
-            <SwiperSlide><div className=" border-2 p-44 w-10 h-10">box 2</div></SwiperSlide>
-            <SwiperSlide><div className=" border-2 p-44 w-10 h-10">box 3</div></SwiperSlide>
-            <SwiperSlide><div className=" border-2 p-44 w-10 h-10">box 4</div></SwiperSlide>
-            <SwiperSlide><div className=" border-2 p-44 w-10 h-10">box 5</div></SwiperSlide>
-           
-            {/* <SwiperSlide className=" w-2xl h-16 border-2 border-amber-300">Slide 2</SwiperSlide>
-            <SwiperSlide className=" w-2xl h-16 border-2 border-amber-300">Slide 3</SwiperSlide>
-            <SwiperSlide className=" w-2xl h-16 border-2 border-amber-300">Slide 4</SwiperSlide>
-            <SwiperSlide className=" w-2xl h-16 border-2 border-amber-300">Slide 5</SwiperSlide>
-            <SwiperSlide className=" w-2xl h-16 border-2 border-amber-300">Slide 6</SwiperSlide>
-            <SwiperSlide className=" w-2xl h-16 border-2 border-amber-300">Slide 7</SwiperSlide> */}
-         </Swiper>
-      </div>
+      <Swiper
+         modules={[FreeMode, Mousewheel, Pagination]}
+         mousewheel
+         slidesPerView={4}
+         spaceBetween={30}
+         freeMode={true}
+         pagination={{
+            clickable: true,
+         }}
+         className="mySwiper shadow-dark mb-20 rounded-2xl"
+      >
+         <SwiperSlide>
+            <Link href="#">
+               <div className=" flex flex-col pt-2 pb-6 items-center ">
+                  <Image width={120} height={120} className="border-2" src="/categories/category1.png" alt="kk" />
+                  <span>اسپرسو</span>
+               </div>
+            </Link>
+         </SwiperSlide>
+         <SwiperSlide>
+            <Link href="#">
+               <div className=" flex flex-col pt-2 pb-6 items-center ">
+                  <Image width={120} height={120} className="border-2" src="/categories/category2.png" alt="kk" />
+                  <span>لوازم جانبی و تجهیزات</span>
+               </div>
+            </Link>
+         </SwiperSlide>
+         <SwiperSlide>
+            <Link href="#">
+               <div className=" flex flex-col pt-2 pb-6 items-center ">
+                  <Image width={120} height={120} className="border-2" src="/categories/category3.png" alt="kk" />
+                  <span>اسپرسو ساز</span>
+               </div>
+            </Link>
+         </SwiperSlide>
+         <SwiperSlide>
+            <Link href="#">
+               <div className=" flex flex-col pt-2 pb-6 items-center ">
+                  <Image width={120} height={120} className="border-2" src="/categories/category4.png" alt="kk" />
+                  <span>پک تسترس قهوه </span>
+               </div>
+            </Link>
+         </SwiperSlide>
+         <SwiperSlide>
+            <Link href="#">
+               <div className=" flex flex-col pt-2 pb-6 items-center ">
+                  <Image width={120} height={120} className="border-2" src="/categories/category5.png" alt="kk" />
+                  <span>قهوه ترک</span>
+               </div>
+            </Link>
+         </SwiperSlide>
+      </Swiper>
    )
 }
