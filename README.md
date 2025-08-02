@@ -1,5 +1,11 @@
 ## Caffee shop ☕️
 
+<br/>
+
+
+[Live Website 🌐](https://coffee-shop-two-psi.vercel.app/) 
+
+
 
 <br/>
 
@@ -62,9 +68,9 @@ npm run dev
 
 ### Tech Stack⚙️
 
-React.js
-Next.js
-Tailwind CSS
+- React.js
+- Next.js
+- Tailwind CSS
 
 
 <br/>
@@ -78,6 +84,7 @@ Tailwind CSS
 
 
 Developed by [Kaveh Khorshidi](https://github.com/Kaveh-Khorshidi) 💻
+
 
 
 
