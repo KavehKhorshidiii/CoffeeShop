@@ -5,13 +5,14 @@ import Link from "next/link"
 
 import { FreeMode, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
-
 import { Mousewheel } from "swiper/modules"
 
 import "swiper/css"
 import "swiper/css/navigation"
 import "swiper/css/pagination"
 import "swiper/css/scrollbar"
+
+
 
 export default function slider() {
    return (
@@ -24,8 +25,8 @@ export default function slider() {
          pagination={{
             clickable: true,
          }}
-         className="mySwiper shadow-dark mb-20 rounded-2xl"
-      >
+         className="mySwiper text-black dark:text-white shadow-dark mb-20 rounded-2xl"
+      >  
          <SwiperSlide>
             <Link href="#">
                <div className=" flex flex-col pt-2 pb-6 items-center ">

@@ -8,7 +8,7 @@ export default function ShopCartHeader() {
       //? shopping cart component
 
       <>
-         {/* curt header */}
+         {/* cart header */}
          <div className=" flex justify-between  w-full">
             <Link href="#">
                <span className="flex text-sm items-center cursor-pointer tracking-tighter text-orange-300">
@@ -23,8 +23,8 @@ export default function ShopCartHeader() {
          </div>
 
          {/* product section */}
-         <div className="grid max-h-[50vh] overflow-auto">
-            <div className=" flex justify-between h-32 my-3.5 shadow-light dark:shadow-dark rounded-2xl ">
+         <div className="grid w-full max-h-[50vh] overflow-auto">
+            <div className=" flex justify-between h-32 my-3.5 border-1 border-black dark:border-white rounded-2xl ">
                <div className=" p-2.5 flex w-2/3 flex-col  h-full justify-between">
                   <h1 className="flex text-base text-zinc-700 dark:text-white font-bold justify-end text-right h-1/2 line-clamp-2">قهوه اسپرسو مدل پرسیکا ۲۵۰ گرم </h1>
 
