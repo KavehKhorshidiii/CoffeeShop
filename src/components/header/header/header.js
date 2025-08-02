@@ -21,12 +21,12 @@ export default function Header() {
    return (
       //? Header component
 
-      <div className=" z-10 max-md:hidden max-lg:px-5 backdrop-blur-[6px] bg-stone-900/80 px-10 py-2.5 top-4 fixed flex left-0 right-0 w-[90%] mx-auto justify-between rounded-3xl">
+      <div className=" z-10 max-md:hidden max-lg:px-5 backdrop-blur-[6px] bg-stone-900/80 px-10 py-6 top-4 fixed flex left-0 right-0 w-[90%] mx-auto justify-between rounded-3xl">
 
          {/* left container | basket and login */}
          <div className="flex items-center max-md:gap-0 gap-1.5  text-orange-200">
             {/* login */}
-            <div className="flex gap-1.5 mr-2">
+            <div className="flex xl:text-xl gap-1.5 mr-2">
                <Link href="#">ثبت نام</Link>
                <span>|</span>
                <Link href="#">ورود</Link>
@@ -50,7 +50,7 @@ export default function Header() {
          </div>
 
          {/* right container | Menu */}
-         <div className=" flex max-lg:gap-3 gap-3.5 child:hover:text-orange-300  items-center">
+         <div className=" flex xl:text-xl max-lg:gap-3 gap-3.5 child:hover:text-orange-300  items-center">
 
             {/* header Menu */}
             <Link href="#">تماس با ما</Link>
@@ -78,7 +78,7 @@ export default function Header() {
                </div>
             </div>
 
-            <Link className="font-black text-orange-200" href="/">
+            <Link className="font-black  xl:text-xl text-orange-200" href="/">
                صفحه اصلی
             </Link>
 
