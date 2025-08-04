@@ -98,12 +98,11 @@ npm run dev
 ###### Mobile
 <table>
   <tr>
-    <td><img src="./public/screenShot/mobile/s1.png" width="200"/></td>
-    <td><img src="./public/screenShot/mobile/s2.png" width="200"/></td>
-    <td><img src="./public/screenShot/mobile/s3.png" width="200"/></td>
+    <td><img src="./public/screenShot/mobile/s1.png" width="300"/></td>
+    <td><img src="./public/screenShot/mobile/s2.png" width="300"/></td>
+    <td><img src="./public/screenShot/mobile/s3.png" width="300"/></td>
   </tr>
 </table>
-
 
 
 <br/>
