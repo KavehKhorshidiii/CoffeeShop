@@ -48,7 +48,7 @@ export default function MobileHeaderSidebarShoppingCart({ toggle , setToggle }) 
 
          {/* footer sidebar */}
          <div className="h-fit flex w-full justify-between border-t-2 border-white/10 pt-3">
-            <button className=" hover:bg-teal-500 bg-teal-600 cursor-pointer rounded-2xl py-3.5 px-6">ثبت سفارش</button>
+            <button className=" hover:bg-teal-500 bg-teal-600 cursor-pointer rounded-2xl py-2 px-4 md:py-3.5 md:px-6">ثبت سفارش</button>
             <div className=" flex justify-center gap-1.5 text-right flex-col">
                <span className=" text-[10px] font-medium border-gray-300">مبلغ قابل پرداخت</span>
                <span className="flex items-center">
