@@ -1,4 +1,4 @@
-## Caffee shop ☕️
+# Caffee shop ☕️
 
 
 <br/>
@@ -7,7 +7,6 @@
 
 
  Click to open the [Live Website 🌐](https://coffee-shop-two-psi.vercel.app/)
-
 
 
 <br/>
@@ -50,12 +49,12 @@ I'm still learning, and this project is part of my journey.
 
 ### Installation & Usage📦
 
-##### Requirements 
+###### Requirements 
 - Node.js 
 - npm or yarn
 
 
-##### Installation Steps 
+###### Installation Steps 
 
 1. Clone the project 
 git clone https://github.com/Kaveh-Khorshidi/Coffee-Shop.git
@@ -95,6 +94,7 @@ screen shot section!
 
 
 Developed by [Kaveh Khorshidi](https://github.com/Kaveh-Khorshidi) 💻
+
 
 
 
