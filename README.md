@@ -84,13 +84,25 @@ npm run dev
 <br/>
 
 
-screen shot section!
+### ScreenShot🌌
+###### Desktop
+![Screenshot](./public/screenShot/desktop/s1.png)
 
+<br/>
+
+![Screenshot](./public/screenShot/desktop/s2.png)
+
+<br/>
+
+
+###### Mobile
+<img src="./public/screenShot/mobile/s1.png" width="200"/>
+<img src="./public/screenShot/mobile/s2.png" width="200"/>
+<img src="./public/screenShot/mobile/s3.png" width="200"/>
 
 
 <br/>
 <br/>
-
 
 
 Developed by [Kaveh Khorshidi](https://github.com/Kaveh-Khorshidi) 💻
