@@ -25,28 +25,28 @@ export default function product() {
          {/* text */}
          <div className=" items-end dark:text-white text-black mt-20 flex justify-between">
             <Link href="#">
-               <div className=" flex items-center text-orange-300">
+               <div className=" flex text-sm md:text-base  items-center text-orange-300">
                   <IoIosArrowBack></IoIosArrowBack>مشاهده همه محصولات
                </div>
             </Link>
             <div className=" flex text-right gap-y-2 flex-col">
-               <span className=" text-4xl font-bold">جدید ترین محصولات</span>
-               <span className=" text-lg">فراوری شده از دانه قهوه</span>
+               <span className=" text-xl md:text-4xl font-bold">جدید ترین محصولات</span>
+               <span className=" text-base">فراوری شده از دانه قهوه</span>
             </div>
          </div>
 
          {/* products */}
          <Link href="#">
-            <div className=" mb-25 mt-5 grid gap-12 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 justify-between w-full">
+            <div className=" mb-25 mt-5 grid gap-3 md:gap-12 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 justify-between w-full">
                {productObject.map((product) => (
                   <div key={product.id} className="shadow-light p-2 text-right rounded-2xl">
                      <div className="flex justify-center">
                         <Image src={product.img} alt="product pho" width={160} height={160} className="w-40 h-40 object-contain" />
                      </div>
 
-                     <div className=" space-y-4">
-                        <div className=" text-base text-zinc-700 dark:text-white font-bold  text-right line-clamp-2">{product.title}</div>
-                        <div className="font-bold text-lg  text-teal-600 flex justify-end ">
+                     <div className=" space-y-2 md:space-y-4">
+                        <div className="text-sm md:text-base text-zinc-700 dark:text-white font-bold  text-right line-clamp-2">{product.title}</div>
+                        <div className="font-bold text-base md:text-lg  text-teal-600 flex justify-end ">
                            <span>تومان</span>
                            <span>۱۷۵،۰۰۰</span>
                         </div>

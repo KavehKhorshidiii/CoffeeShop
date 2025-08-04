@@ -27,6 +27,7 @@ export default function Home() {
 
          {/* main - body */}
          <main>
+            
             {/* title - bg-img */}
             <section>
                <Title></Title>
