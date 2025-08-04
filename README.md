@@ -96,9 +96,14 @@ npm run dev
 
 
 ###### Mobile
-<img src="./public/screenShot/mobile/s1.png" width="200"/>
-<img src="./public/screenShot/mobile/s2.png" width="200"/>
-<img src="./public/screenShot/mobile/s3.png" width="200"/>
+<table>
+  <tr>
+    <td><img src="./public/screenShot/mobile/s1.png" width="200"/></td>
+    <td><img src="./public/screenShot/mobile/s2.png" width="200"/></td>
+    <td><img src="./public/screenShot/mobile/s3.png" width="200"/></td>
+  </tr>
+</table>
+
 
 
 <br/>
