@@ -24,7 +24,7 @@ export default function BasketShoppingCartBtn() {
    return (
       <>
          <button onClick={() => setToggle(true)}>
-            <FaBasketShopping className="hover:text-orange-300 text-black dark:text-white size-7"></FaBasketShopping>
+            <FaBasketShopping className="hover:text-orange-300 text-black dark:text-white size-6"></FaBasketShopping>
          </button>
 
 

@@ -9,7 +9,7 @@ export default function MobileHeaderSidebarShoppingCart({ toggle , setToggle }) 
       <div
          className={`${
             toggle ? "translate-x-0" : "-translate-x-full "
-         }  flex left-0 flex-col justify-between px-3 py-4 z-20 bg-white text-lg dark:bg-zinc-700 transition-all duration-500 dark:text-amber-50  text-black fixed bottom-0 top-0 w-1/2`}
+         }  flex left-0 flex-col justify-between px-3 py-4 z-20 bg-white text-lg dark:bg-zinc-700 transition-all duration-500 dark:text-amber-50  text-black fixed bottom-0 top-0 w-2/3`}
       >
          {/* left body sideBar - header*/}
          <div className="h-fit pb-3 dark:border-white/50 border-black/50 border-b-1 flex items-center justify-between w-full">

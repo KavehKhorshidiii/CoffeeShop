@@ -19,7 +19,7 @@ export default function MobileHeaderSidebarMenu({ toggle, setToggle }) {
       <div
          className={`${
             toggle ? "right-0 translate-x-0 " : " right-0 translate-x-full "
-         } px-5 z-20 bg-white text-lg dark:bg-zinc-700 dark:text-amber-50  text-black fixed  bottom-0 w-1/2 top-0`}
+         } px-5 z-20 bg-white text-lg dark:bg-zinc-700 dark:text-amber-50  text-black fixed  bottom-0 w-2/3 top-0`}
       >
          {/* header sideBar */}
          <div className=" dark:border-white/50 border-black/50 border-b-1 py-4 items-center flex justify-between">

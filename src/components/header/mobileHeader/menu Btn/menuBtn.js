@@ -24,7 +24,7 @@ export default function MenuBtn() {
    return (
       <>
          <button onClick={() => setToggle(true)}>
-            <GiHamburgerMenu className="hover:text-orange-300 text-black dark:text-white size-7"></GiHamburgerMenu>
+            <GiHamburgerMenu className="hover:text-orange-300 text-black dark:text-white size-6"></GiHamburgerMenu>
          </button>
 
 
