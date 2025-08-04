@@ -25,7 +25,7 @@ export default function slider() {
          pagination={{
             clickable: true,
          }}
-         className="mySwiper text-black dark:text-white shadow-dark my-20 rounded-2xl"
+         className="mySwiper text-black dark:text-white shadow-dark my-15 rounded-2xl"
       >  
          <SwiperSlide>
             <Link href="#">

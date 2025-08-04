@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function CoffeeSection() {
    return (
-      <div className="flex flex-col lg:flex-row justify-between my-25 gap-5 w-full">
+      <div className="flex flex-col lg:flex-row justify-between my-15 md:my-25 gap-3 md:gap-5 w-full">
 
          {/* left section */}
          <div className="relative w-full">

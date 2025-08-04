@@ -23,7 +23,7 @@ export default function product() {
    return (
       <>
          {/* text */}
-         <div className=" items-end dark:text-white text-black mt-20 flex justify-between">
+         <div className=" items-end dark:text-white text-black mt-10 md:mt-20 flex justify-between">
             <Link href="#">
                <div className=" flex text-sm md:text-base  items-center text-orange-300">
                   <IoIosArrowBack></IoIosArrowBack>مشاهده همه محصولات
@@ -37,7 +37,7 @@ export default function product() {
 
          {/* products */}
          <Link href="#">
-            <div className=" mb-25 mt-5 grid gap-3 md:gap-12 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 justify-between w-full">
+            <div className=" md-20 md:mb-25 mt-5 grid gap-3 md:gap-12 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 justify-between w-full">
                {productObject.map((product) => (
                   <div key={product.id} className="shadow-light p-2 text-right rounded-2xl">
                      <div className="flex justify-center">

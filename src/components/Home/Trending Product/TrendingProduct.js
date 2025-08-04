@@ -34,14 +34,14 @@ export default function TrendingProduct() {
          }}
          navigation={false}
          modules={[Autoplay, Pagination, Navigation]}
-         className="mySwiper my-25 rounded-2xl shadow-dark"
+         className="mySwiper my-15 md:my-25 rounded-2xl shadow-dark"
       >
         
         
          {/* show product */}
          {productObject.map((product) => (
             <SwiperSlide className="" key={product.id}>
-               <div key={product.id} className="h-70 flex items-center justify-around  p-2 text-right">
+               <div key={product.id} className="h-50 md:h-70 flex items-center justify-around p-2 text-right">
                   <div className="flex justify-center">
                      <Image src={product.img} alt="product pho" width={180} height={180} className="w-40 h-40 object-contain" />
                   </div>
