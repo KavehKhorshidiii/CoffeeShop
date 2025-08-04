@@ -31,7 +31,7 @@ export default function slider() {
             <Link href="#">
                <div className=" flex flex-col pt-2 pb-6 items-center ">
                   <Image width={120} height={120} className="border-2" src="/categories/category1.png" alt="kk" />
-                  <span>اسپرسو</span>
+                  <span className=" text-xs text-center md:text-base">اسپرسو</span>
                </div>
             </Link>
          </SwiperSlide>
@@ -39,7 +39,7 @@ export default function slider() {
             <Link href="#">
                <div className=" flex flex-col pt-2 pb-6 items-center ">
                   <Image width={120} height={120} className="border-2" src="/categories/category2.png" alt="kk" />
-                  <span>لوازم جانبی و تجهیزات</span>
+                  <span className=" text-xs text-center md:text-base">لوازم جانبی و تجهیزات</span>
                </div>
             </Link>
          </SwiperSlide>
@@ -47,7 +47,7 @@ export default function slider() {
             <Link href="#">
                <div className=" flex flex-col pt-2 pb-6 items-center ">
                   <Image width={120} height={120} className="border-2" src="/categories/category3.png" alt="kk" />
-                  <span>اسپرسو ساز</span>
+                  <span className=" text-xs text-center md:text-base">اسپرسو ساز</span>
                </div>
             </Link>
          </SwiperSlide>
@@ -55,7 +55,7 @@ export default function slider() {
             <Link href="#">
                <div className=" flex flex-col pt-2 pb-6 items-center ">
                   <Image width={120} height={120} className="border-2" src="/categories/category4.png" alt="kk" />
-                  <span>پک تسترس قهوه </span>
+                  <span className=" text-xs text-center md:text-base">پک تسترس قهوه </span>
                </div>
             </Link>
          </SwiperSlide>
@@ -63,7 +63,7 @@ export default function slider() {
             <Link href="#">
                <div className=" flex flex-col pt-2 pb-6 items-center ">
                   <Image width={120} height={120} className="border-2" src="/categories/category5.png" alt="kk" />
-                  <span>قهوه ترک</span>
+                  <span className=" text-xs text-center md:text-base">قهوه ترک</span>
                </div>
             </Link>
          </SwiperSlide>
