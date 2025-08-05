@@ -57,16 +57,24 @@ I'm still learning, and this project is part of my journey.
 ###### Installation Steps 
 
 1. Clone the project 
+```bash
 git clone https://github.com/Kaveh-Khorshidi/Coffee-Shop.git
+```
 
-2. Move into the project directory
+3. Move into the project directory
+```bash
 cd Coffee-Shop
+```
 
-3. Install dependencies
+5. Install dependencies
+```bash
 npm install
+```
 
-4. Start the development server
+7. Start the development server
+```bash
 npm run dev
+```
 
 
 <br/>
@@ -150,6 +158,7 @@ This project currently does not include any automated tests. However, I plan to 
 </a>
 
 </h3>
+
 
 
 
