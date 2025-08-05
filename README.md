@@ -137,7 +137,14 @@ This project currently does not include any automated tests. However, I plan to 
 <br/>
 
 
-Developed by [Kaveh Khorshidi](https://github.com/Kaveh-Khorshidi) 💻
+<h3 align="center">
+
+<a href="https://github.com/Kaveh-Khorshidi" >
+"Developed  by  Kaveh Khorshidi"
+</a>
+
+</h3>
+
 
 
 
