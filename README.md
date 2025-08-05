@@ -3,7 +3,6 @@
 <br/>
 <br/>
 <br/>
-<br/>
  
 
 ## 🌐 Live Demo  
@@ -103,7 +102,7 @@ npm run dev
 <br/>
 
 
-## 🪪 License
+## ⚖️ License
 This project is licensed under the MIT License.
 
 
@@ -151,6 +150,7 @@ This project currently does not include any automated tests. However, I plan to 
 </a>
 
 </h3>
+
 
 
 
