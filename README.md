@@ -1,6 +1,13 @@
-# ☕️ Caffee shop
+<h1 align="center">☕️ Caffee shop</h1>
 
- Click to open the [Live Website 🌐](https://coffee-shop-two-psi.vercel.app/)
+<br/>
+<br/>
+<br/>
+<br/>
+ 
+
+## 🌐 Live Demo  
+[Open the Live Website](https://coffee-shop-two-psi.vercel.app/)
 
 
 <br/>
@@ -144,6 +151,7 @@ This project currently does not include any automated tests. However, I plan to 
 </a>
 
 </h3>
+
 
 
 
