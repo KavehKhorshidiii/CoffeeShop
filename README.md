@@ -84,6 +84,16 @@ npm run dev
 <br/>
 
 
+### 📌 TODO (Next Steps)
+
+- [ ] Add DarkMode Botton
+- [ ] Add unit testing (using Vitest or Jest)
+
+
+<br/>
+<br/>
+
+
 ### ScreenShot🌌
 ###### Desktop
 ![Screenshot](./public/screenShot/desktop/s1.png)
@@ -110,6 +120,7 @@ npm run dev
 
 
 Developed by [Kaveh Khorshidi](https://github.com/Kaveh-Khorshidi) 💻
+
 
 
 
