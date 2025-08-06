@@ -41,6 +41,7 @@ I'm still learning, and this project is part of my journey.
 - Mobile view support
 - Sidebar 
 - Dark mode (Considering the user's browser theme)
+- Loading spinner
 
 
 <br/>
@@ -158,6 +159,7 @@ This project currently does not include any automated tests. However, I plan to 
 </a>
 
 </h3>
+
 
 
 
