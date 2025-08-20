@@ -62,17 +62,17 @@ I'm still learning, and this project is part of my journey.
 git clone https://github.com/Kaveh-Khorshidi/Coffee-Shop.git
 ```
 
-3. Move into the project directory
+2. Move into the project directory
 ```bash
 cd Coffee-Shop
 ```
 
-5. Install dependencies
+3. Install dependencies
 ```bash
 npm install
 ```
 
-7. Start the development server
+4. Start the development server
 ```bash
 npm run dev
 ```
@@ -159,6 +159,7 @@ This project currently does not include any automated tests. However, I plan to 
 </a>
 
 </h3>
+
 
 
 
