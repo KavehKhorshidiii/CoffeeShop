@@ -1,4 +1,4 @@
-<h1 align="center">☕️ Caffee shop</h1>
+<h1 align="center">Caffee shop</h1>
 
 <br/>
 <br/>
