@@ -5,7 +5,7 @@
 <br/>
  
 
-## 🌐 Live Demo  
+## Live Demo  
 [Open the Live Website](https://coffee-shop-two-psi.vercel.app/)
 
 
@@ -13,7 +13,7 @@
 <br/>
 
 
-## 📄 Description
+## Description
 
 The coffee shop project is my first project
 "This project was developed with NextJs, but I still haven't learned NextJs!"
@@ -23,7 +23,7 @@ The coffee shop project is my first project
 <br/>
 
 
-## 📘 Project Description
+## Project Description
 
 This is my **first personal project**, built with **Next.js**, even though I haven't formally learned the framework yet. The goal was to explore web development hands-on and practice building a simple coffee shop management app.  
 I'm still learning, and this project is part of my journey. 
@@ -33,7 +33,7 @@ I'm still learning, and this project is part of my journey.
 <br/>
 
 
-## ✨ Features
+## Features
 
 - Simple order-taking system
 - Responsive design
@@ -48,7 +48,7 @@ I'm still learning, and this project is part of my journey.
 <br/>
 
 
-## 📦 Installation & Usage
+## Installation & Usage
 
 ###### Requirements 
 - Node.js 
@@ -82,7 +82,7 @@ npm run dev
 <br/>
 
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - React.js
 - Next.js
@@ -93,7 +93,7 @@ npm run dev
 <br/>
 
 
-## 🎯 Project Goals
+## Project Goals
 - Practice building a simple app using Next.js and Tailwind CSS  
 
 
@@ -101,7 +101,7 @@ npm run dev
 <br/>
 
 
-## 📌 TODO (Next Steps)
+## TODO (Next Steps)
 
 - [ ] Add DarkMode Botton
 - [ ] Add unit testing (using Vitest or Jest)
@@ -111,7 +111,7 @@ npm run dev
 <br/>
 
 
-## ⚖️ License
+## License
 This project is licensed under the MIT License.
 
 
@@ -119,7 +119,7 @@ This project is licensed under the MIT License.
 <br/>
 
 
-## 🧪 Testing
+## Testing
 This project currently does not include any automated tests. However, I plan to add testing in the future using either **Vitest** or **Jest**.
 
 
@@ -127,7 +127,7 @@ This project currently does not include any automated tests. However, I plan to 
 <br/>
 
 
-## 🌌 ScreenShot
+## ScreenShot
 ###### Desktop
 ![Screenshot](./public/screenShot/desktop/s1.png)
 
