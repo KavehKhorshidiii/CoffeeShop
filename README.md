@@ -1,5 +1,6 @@
 <h1 align="center">Caffee shop</h1>
 
+
 <br/>
 <br/>
 <br/>
@@ -42,6 +43,31 @@ I'm still learning, and this project is part of my journey.
 - Sidebar 
 - Dark mode (Considering the user's browser theme)
 - Loading spinner
+
+
+<br/>
+<br/>
+
+
+## ScreenShot
+###### Desktop
+![Screenshot](./public/screenShot/desktop/s1.png)
+
+<br/>
+
+![Screenshot](./public/screenShot/desktop/s2.png)
+
+<br/>
+
+
+###### Mobile
+<table>
+  <tr>
+    <td><img src="./public/screenShot/mobile/s1.png" width="300"/></td>
+    <td><img src="./public/screenShot/mobile/s2.png" width="300"/></td>
+    <td><img src="./public/screenShot/mobile/s3.png" width="300"/></td>
+  </tr>
+</table>
 
 
 <br/>
@@ -127,38 +153,15 @@ This project currently does not include any automated tests. However, I plan to 
 <br/>
 
 
-## ScreenShot
-###### Desktop
-![Screenshot](./public/screenShot/desktop/s1.png)
-
-<br/>
-
-![Screenshot](./public/screenShot/desktop/s2.png)
-
-<br/>
 
 
-###### Mobile
-<table>
-  <tr>
-    <td><img src="./public/screenShot/mobile/s1.png" width="300"/></td>
-    <td><img src="./public/screenShot/mobile/s2.png" width="300"/></td>
-    <td><img src="./public/screenShot/mobile/s3.png" width="300"/></td>
-  </tr>
-</table>
+## Author
 
+**Kaveh Khorshidi**
 
-<br/>
-<br/>
+* GitHub: https://github.com/kavehkhorshidiii
+* Email: kavehkhorshidiii@email.com
 
-
-<h3 align="center">
-
-<a href="https://github.com/Kaveh-Khorshidi" >
-"Developed  by  Kaveh Khorshidi"
-</a>
-
-</h3>
 
 
 
