@@ -1,7 +1,7 @@
-<h1 align="center">Caffee shop</h1>
+<h1 align="center">Coffee Shop</h1>
+<p align="center">  Simple Coffee Shop UI built with Next.js and Tailwind CSS.</p>
 
 
-<br/>
 <br/>
 <br/>
  
@@ -11,26 +11,14 @@
 
 
 <br/>
-<br/>
 
 
 ## Description
 
-The coffee shop project is my first project
-"This project was developed with NextJs, but I still haven't learned NextJs!"
+The goal was to explore web development hands-on and practice building a simple coffee shop management app.  
+This project was built to practice Next.js and improve frontend development skills.
 
 
-<br/>
-<br/>
-
-
-## Project Description
-
-This is my **first personal project**, built with **Next.js**, even though I haven't formally learned the framework yet. The goal was to explore web development hands-on and practice building a simple coffee shop management app.  
-I'm still learning, and this project is part of my journey. 
-
-
-<br/>
 <br/>
 
 
@@ -38,18 +26,16 @@ I'm still learning, and this project is part of my journey.
 
 - Simple order-taking system
 - Responsive design
-- First personal project
 - Mobile view support
-- Sidebar 
-- Dark mode (Considering the user's browser theme)
+- Sidebar
+- Automatic dark mode based on the user's system preference
 - Loading spinner
 
 
 <br/>
-<br/>
 
 
-## ScreenShot
+## Screenshots
 ###### Desktop
 ![Screenshot](./public/screenShot/desktop/s1.png)
 
@@ -71,13 +57,23 @@ I'm still learning, and this project is part of my journey.
 
 
 <br/>
+
+
+## Tech Stack
+
+- Next.js
+- React
+- Tailwind CSS
+- JavaScript
+
+
 <br/>
 
 
 ## Installation & Usage
 
 ###### Requirements 
-- Node.js 
+- Node.js 18+
 - npm or yarn
 
 
@@ -98,86 +94,49 @@ cd Coffee-Shop
 npm install
 ```
 
-4. Start the development server
+###### Usage Steps
+
+Start the development server
 ```bash
 npm run dev
 ```
 
-
-<br/>
-<br/>
-
-
-## Tech Stack
-
-- React.js
-- Next.js
-- Tailwind CSS
-
-
-<br/>
 <br/>
 
 
 ## Project Goals
-- Practice building a simple app using Next.js and Tailwind CSS  
+
+- Practice building applications with Next.js
+- Improve frontend development skills
+- Learn Tailwind CSS
 
 
-<br/>
 <br/>
 
 
 ## TODO (Next Steps)
 
-- [ ] Add DarkMode Botton
+- [ ] Add a manual dark mode toggle
 - [ ] Add unit testing (using Vitest or Jest)
 
 
 <br/>
-<br/>
 
 
 ## License
+
 This project is licensed under the MIT License.
 
 
 <br/>
-<br/>
-
-
-## Testing
-This project currently does not include any automated tests. However, I plan to add testing in the future using either **Vitest** or **Jest**.
-
-
-<br/>
-<br/>
-
-
 
 
 ## Author
 
 **Kaveh Khorshidi**
 
-* GitHub: https://github.com/kavehkhorshidiii
-* Email: kavehkhorshidiii@email.com
+[![GitHub](https://img.shields.io/badge/GitHub-kavehkhorshidiii-181717?logo=github)](https://github.com/kavehkhorshidiii)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[![Email](https://img.shields.io/badge/Email-kavehkhorshidiii%40gmail.com-181717?logo=gmail&logoColor=white)](mailto:kavehkhorshidiii@gmail.com)
 
 
