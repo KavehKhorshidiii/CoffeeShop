@@ -9,6 +9,7 @@ import Club from "@/components/Home/Club/Club"
 import AboutMe from "@/components/Home/aboutMe/aboutMe"
 
 
+
 export default function Home() {
    return (
       <div className="w-full bg-gray-100 dark:bg-zinc-800">
